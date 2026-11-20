@@ -1,0 +1,154 @@
+{
+  "voices": [
+    {
+      "id": "com.enclaveai.voice.fr",
+      "name": "Gilles",
+      "language": "fr-FR",
+      "modelPackID": "piper-fr-v1"
+    },
+    {
+      "id": "com.enclaveai.voice.it",
+      "name": "Paola",
+      "language": "it-IT",
+      "modelPackID": "piper-it-v1"
+    },
+    {
+      "id": "com.enclaveai.voice.es",
+      "name": "DaveFX",
+      "language": "es-ES",
+      "modelPackID": "piper-es-v1"
+    },
+    {
+      "id": "com.enclaveai.voice.pl",
+      "name": "MC_Speech",
+      "language": "pl-PL",
+      "modelPackID": "piper-pl-v1"
+    }
+  ],
+  "packs": [
+    {
+      "id": "piper-fr-v1",
+      "revision": "1455883dac179e571c6508ac288944ef5e6b716d",
+      "downloadBytes": 31907803,
+      "files": [
+        {
+          "path": "fr_FR-gilles-low.encoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/fr/fr_FR/gilles/low/fr_FR-gilles-low.encoder.onnx",
+          "sha256": "cd3822c407e920bd5123b701aab851dca4e11f54ccfde04a94946c73532b9869",
+          "byteCount": 28558973
+        },
+        {
+          "path": "fr_FR-gilles-low.decoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/fr/fr_FR/gilles/low/fr_FR-gilles-low.decoder.onnx",
+          "sha256": "78fccae1a034419b94614564119155671fa37d7a763b85785cd950c6db94dc2a",
+          "byteCount": 3344372
+        },
+        {
+          "path": "fr_FR-gilles-low.onnx.json",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/fr/fr_FR/gilles/low/fr_FR-gilles-low.onnx.json",
+          "sha256": "5a47cc0789e91267d17666bbec842dd92950669271a09023eb6970ee364cf88a",
+          "byteCount": 4158
+        },
+        {
+          "path": "MODEL_CARD",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/fr/fr_FR/gilles/low/MODEL_CARD",
+          "sha256": "29d0964475ce042f5cd59c46bbd996fac785a84476c09d0973295d3528456974",
+          "byteCount": 300
+        }
+      ]
+    },
+    {
+      "id": "piper-it-v1",
+      "revision": "1455883dac179e571c6508ac288944ef5e6b716d",
+      "downloadBytes": 32597395,
+      "files": [
+        {
+          "path": "it_IT-paola-medium.encoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/it/it_IT/paola/medium/it_IT-paola-medium.encoder.onnx",
+          "sha256": "c71601dc01cfd9946beee09b3dd5560b350adafe90a51a7369dcb7f635121d3f",
+          "byteCount": 29245259
+        },
+        {
+          "path": "it_IT-paola-medium.decoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/it/it_IT/paola/medium/it_IT-paola-medium.decoder.onnx",
+          "sha256": "86f9d1e09aa8ab804fcdc5549e09833bfc21f3d077e60c11b07071afd28f5171",
+          "byteCount": 3344734
+        },
+        {
+          "path": "it_IT-paola-medium.onnx.json",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/it/it_IT/paola/medium/it_IT-paola-medium.onnx.json",
+          "sha256": "aea19c0a7fce29fbc359b93f10e7902854401e4c95ae2ea328ae516b15d296cf",
+          "byteCount": 7099
+        },
+        {
+          "path": "MODEL_CARD",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/it/it_IT/paola/medium/MODEL_CARD",
+          "sha256": "c53fd0070dc93b438edbce06728eb83759ba030fff0cce523209ee4a0a6363c0",
+          "byteCount": 303
+        }
+      ]
+    },
+    {
+      "id": "piper-es-v1",
+      "revision": "1455883dac179e571c6508ac288944ef5e6b716d",
+      "downloadBytes": 31956822,
+      "files": [
+        {
+          "path": "es_ES-davefx-medium.encoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/es/es_ES/davefx/medium/es_ES-davefx-medium.encoder.onnx",
+          "sha256": "cd9fc2a00cacafecc06b9435d9377f8f341a87736c1cbbc265cdf8789e2d9c7c",
+          "byteCount": 28607357
+        },
+        {
+          "path": "es_ES-davefx-medium.decoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/es/es_ES/davefx/medium/es_ES-davefx-medium.decoder.onnx",
+          "sha256": "50ff3e8f12005b9f52034ae2133b503888bd1fe09a7d58bf9d33da489171af50",
+          "byteCount": 3344372
+        },
+        {
+          "path": "es_ES-davefx-medium.onnx.json",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/es/es_ES/davefx/medium/es_ES-davefx-medium.onnx.json",
+          "sha256": "0e0dda87c732f6f38771ff274a6380d9252f327dca77aa2963d5fbdf9ec54842",
+          "byteCount": 4817
+        },
+        {
+          "path": "MODEL_CARD",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/es/es_ES/davefx/medium/MODEL_CARD",
+          "sha256": "420703b5d8ea239b729f13d83f31eea9bae5fcb89447de23ebc94aa8a4768f95",
+          "byteCount": 276
+        }
+      ]
+    },
+    {
+      "id": "piper-pl-v1",
+      "revision": "1455883dac179e571c6508ac288944ef5e6b716d",
+      "downloadBytes": 31956986,
+      "files": [
+        {
+          "path": "pl_PL-mc_speech-medium.encoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/pl/pl_PL/mc_speech/medium/pl_PL-mc_speech-medium.encoder.onnx",
+          "sha256": "750ad8746c004b3269d6582a91c7d5e2f72f0ab059df9f48240ad7f80674d295",
+          "byteCount": 28607357
+        },
+        {
+          "path": "pl_PL-mc_speech-medium.decoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/pl/pl_PL/mc_speech/medium/pl_PL-mc_speech-medium.decoder.onnx",
+          "sha256": "8b5a4af59bffb1bebca4964bdad5f2e3935865284c9788014c8018199bdf973c",
+          "byteCount": 3344372
+        },
+        {
+          "path": "pl_PL-mc_speech-medium.onnx.json",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/pl/pl_PL/mc_speech/medium/pl_PL-mc_speech-medium.onnx.json",
+          "sha256": "b8bb11228e15c505219846a88fdc129e93f57e774ed7f9bac263156d1aa3d324",
+          "byteCount": 4961
+        },
+        {
+          "path": "MODEL_CARD",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/pl/pl_PL/mc_speech/medium/MODEL_CARD",
+          "sha256": "defd8213e3a438ebb80130dc1db17b6995bf5bf8d57fdee7b5b74a5a69c2c0d2",
+          "byteCount": 296
+        }
+      ]
+    }
+  ]
+}

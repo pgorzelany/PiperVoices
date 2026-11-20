@@ -1,0 +1,7 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+Resources/Voice/*
+!Resources/Voice/README.txt

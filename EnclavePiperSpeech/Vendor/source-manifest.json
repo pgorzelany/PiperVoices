@@ -1,0 +1,75 @@
+{
+  "dependencies": {
+    "espeak-ng-spm": {
+      "revision": "adad732ec1e4709383e282e11842b64e8b42dc2d",
+      "submodules": {
+        "libespeak-ng": "699e79690f23e2558d990a3a78b0050745b96932",
+        "libsonic": "9a8d05dc0baa9159fc322dd9905a04e23b161337"
+      },
+      "url": "https://github.com/piper-tts-apps/espeak-ng-spm.git",
+      "version": "2026.09.11"
+    },
+    "onnxruntime": {
+      "archiveSHA256": "90d9de5a139087a6b05a18125d01d01d198820e1731e6f0f11b38749b2ab181f",
+      "url": "https://download.onnxruntime.ai/pod-archive-onnxruntime-c-1.22.0.zip",
+      "version": "1.22.0"
+    }
+  },
+  "sources": {
+    "piper": {
+      "files": {
+        "Licenses/Piper-GPL-3.0.txt": {
+          "path": "COPYING",
+          "upstreamSHA256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227"
+        },
+        "Piper/chinese_phonemizer.cpp": {
+          "path": "libpiper/src/chinese_phonemizer.cpp",
+          "upstreamSHA256": "be4d6956dbc3d11dc3230c1bb94940c1ec21305eedf143eeb627f2a97fe8c4af"
+        },
+        "Piper/headers/chinese_phonemizer.h": {
+          "path": "libpiper/include/chinese_phonemizer.h",
+          "upstreamSHA256": "3e120d5d5957a0643e1b57264232bec5c306a330b4e39c641f844c9c225dbc3a"
+        },
+        "Piper/headers/json.hpp": {
+          "path": "libpiper/include/json.hpp",
+          "upstreamSHA256": "665fa14b8af3837966949e8eb0052d583e2ac105d3438baba9951785512cf921"
+        },
+        "Piper/headers/piper.h": {
+          "path": "libpiper/include/piper.h",
+          "upstreamSHA256": "2f8bd59fe058cf315f4376366928a7c4e3559abb0aadb7edd89ba0c5e5426f59"
+        },
+        "Piper/headers/piper_impl.hpp": {
+          "path": "libpiper/include/piper_impl.hpp",
+          "upstreamSHA256": "723bcdcc05c0d23fb13c25e8100d0c2fc7f4e3d11d630325ceb88d0d05a0e627",
+          "vendoredSHA256": "cefd41b8218a6f1b248e58759316794f1b759c72486d8f86552646bbcb205509"
+        },
+        "Piper/headers/uni_algo.h": {
+          "path": "libpiper/include/uni_algo.h",
+          "upstreamSHA256": "f488f6419414f05249003a3a1e9fdaf2d06123b41cf5ab82907ef7659b975feb"
+        },
+        "Piper/piper.cpp": {
+          "path": "libpiper/src/piper.cpp",
+          "upstreamSHA256": "1e4e1c3cbba0c1ec2943c92a7c1379346388e0ed5507862c5e95d1e7961542e2",
+          "vendoredSHA256": "f654e2a610b783ae9e5939c6e3a7c9dd5303c800fbc1b88a49810d250a958eda"
+        }
+      },
+      "revision": "304d5dac29c57a30d43fad09ef4b3a70a795b1bc",
+      "url": "https://github.com/OHF-Voice/piper1-gpl"
+    },
+    "spm": {
+      "files": {
+        "Licenses/Piper-SwiftPM-GPL-3.0.txt": {
+          "path": "LICENSE",
+          "upstreamSHA256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        "Piper/headers/onnxruntime_cxx_api.h": {
+          "path": "piper-spm/headers/onnxruntime_cxx_api.h",
+          "upstreamSHA256": "01d5ca127b10e886a2c0ede1a90ac9ded1e827d0c1d2e87130347edb61181b44"
+        }
+      },
+      "revision": "acd9fa26f318824db20f69fc595166f28eaca163",
+      "url": "https://github.com/piper-tts-apps/piper1-gpl",
+      "version": "0.1.25"
+    }
+  }
+}

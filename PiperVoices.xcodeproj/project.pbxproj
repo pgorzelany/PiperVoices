@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	classes = {
+	};
+	objectVersion = 70;
+	archiveVersion = 1;
+	objects = {
+		015B1F78DA482A23D2EDE13A = {
+			isa = PBXBuildFile;
+			fileRef = 245DCCD5E347987A016B2554;
+		};
+		03F078CD5E5F26E1EFF65ED0 = {
+			isa = PBXBuildFile;
+			productRef = 789C4A8DB16F9B5A54AB881D;
+		};
+		10376AE2CFF03A101A1FF674 = {
+			isa = PBXBuildFile;
+			fileRef = 2B7D7E0A0FA7A0756A5BC4DA;
+		};
+		1318CF9849307CC601EDE0EB = {
+			isa = PBXBuildFile;
+			fileRef = B25B4A204528A375D5ABE171;
+		};
+		26E16A2502DF878CDFDA791E = {
+			isa = PBXBuildFile;
+			productRef = 79A903F0CE087E6F7757F8A3;
+		};
+		46D2CE6CCD8BD514168DEA8D = {
+			isa = PBXBuildFile;
+			productRef = 4D10016B21D5EDC5A4605AA7;
+		};
+		57AD5C8B661CA68B38222917 = {
+			isa = PBXBuildFile;
+			fileRef = 245DCCD5E347987A016B2554;
+		};
+		591CFB6DAF4B013A66BC1F80 = {
+			isa = PBXBuildFile;
+			productRef = 65B0CA26168C5449881F019E;
+		};
+		7A636C678B91DD5E561C4151 = {
+			isa = PBXBuildFile;
+			fileRef = 2B7D7E0A0FA7A0756A5BC4DA;
+		};
+		7C6C92AD870A7440C37E4353 = {
+			isa = PBXBuildFile;
+			fileRef = B25B4A204528A375D5ABE171;
+		};
+		E80000000000000000000002 = {
+			isa = PBXBuildFile;
+			fileRef = E80000000000000000000001;
+		};
+		E80000000000000000000003 = {
+			isa = PBXBuildFile;
+			fileRef = E80000000000000000000001;
+		};
+		245DCCD5E347987A016B2554 = {
+			path = AudioUnitFactory.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		2B7D7E0A0FA7A0756A5BC4DA = {
+			path = BundledSpeechAudioUnit.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		3742F61C68BB01E3AF10B245 = {
+			path = Info.plist;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			sourceTree = "<group>";
+		};
+		3B567CB958D28B0568F17757 = {
+			path = "EnclaveSpeech-macOS.appex";
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.app-extension";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		423D72A39FC43BFB6AB7483C = {
+			path = MacOS.entitlements;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			sourceTree = "<group>";
+		};
+		8FF6182539CFA2CF55196AE2 = {
+			path = "EnclaveSpeech-iOS.appex";
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.app-extension";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B25B4A204528A375D5ABE171 = {
+			path = Resources/Voice;
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			sourceTree = "<group>";
+		};
+		E80000000000000000000001 = {
+			path = PrivacyInfo.xcprivacy;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			sourceTree = "<group>";
+		};
+		6DF086F778CE76781188FAE2 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (46D2CE6CCD8BD514168DEA8D, 26E16A2502DF878CDFDA791E);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD0295E28F87A87B933675 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (03F078CD5E5F26E1EFF65ED0, 591CFB6DAF4B013A66BC1F80);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55108E992B6015BF00A55A9D = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (6E1CA0E87C92367F6C52F393, B25B4A204528A375D5ABE171, 55108EA32B6015BF00A55A9D);
+		};
+		55108EA32B6015BF00A55A9D = {
+			isa = PBXGroup;
+			name = Products;
+			children = (3B567CB958D28B0568F17757, 8FF6182539CFA2CF55196AE2);
+			sourceTree = "<group>";
+		};
+		6E1CA0E87C92367F6C52F393 = {
+			isa = PBXGroup;
+			children = (245DCCD5E347987A016B2554, 2B7D7E0A0FA7A0756A5BC4DA, 3742F61C68BB01E3AF10B245, 423D72A39FC43BFB6AB7483C, E80000000000000000000001);
+			sourceTree = "<group>";
+			name = Provider;
+		};
+		550EF2A087365B57249A69BB = {
+			dependencies = ();
+			buildConfigurationList = 9F0E6FB0CDE6ED1096503B70;
+			productReference = 8FF6182539CFA2CF55196AE2;
+			productType = "com.apple.product-type.app-extension";
+			packageProductDependencies = (789C4A8DB16F9B5A54AB881D, 65B0CA26168C5449881F019E);
+			productName = "EnclaveSpeech-iOS";
+			isa = PBXNativeTarget;
+			fileSystemSynchronizedGroups = ();
+			buildPhases = (445400E5F2FBA943F420F425, FCFD0295E28F87A87B933675, 3F08605B21D8EEB9CBCE742A);
+			name = "EnclaveSpeech-iOS";
+			buildRules = ();
+		};
+		FB4888DD8966F8E5CF8EAA76 = {
+			dependencies = ();
+			buildConfigurationList = 998A75D8E7AD39C4B6CD91C3;
+			productReference = 3B567CB958D28B0568F17757;
+			productType = "com.apple.product-type.app-extension";
+			packageProductDependencies = (4D10016B21D5EDC5A4605AA7, 79A903F0CE087E6F7757F8A3);
+			productName = "EnclaveSpeech-macOS";
+			isa = PBXNativeTarget;
+			fileSystemSynchronizedGroups = ();
+			buildPhases = (F92B25893F4F1221CD44C909, 6DF086F778CE76781188FAE2, F3B723E8DD5920122D6048DD);
+			name = "EnclaveSpeech-macOS";
+			buildRules = ();
+		};
+		55108E9A2B6015BF00A55A9D = {
+			buildConfigurationList = 55108E9D2B6015BF00A55A9D;
+			packageReferences = (072846954E8B821D58D032BB, 7699421921C98E35BF12D907);
+			targets = (FB4888DD8966F8E5CF8EAA76, 550EF2A087365B57249A69BB);
+			developmentRegion = en;
+			knownRegions = (en, Base);
+			isa = PBXProject;
+			compatibilityVersion = "Xcode 14.0";
+			productRefGroup = 55108EA32B6015BF00A55A9D;
+			projectDirPath = "";
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+			};
+			hasScannedForEncodings = 0;
+			projectRoot = "";
+			mainGroup = 55108E992B6015BF00A55A9D;
+		};
+		3F08605B21D8EEB9CBCE742A = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (7C6C92AD870A7440C37E4353, E80000000000000000000002);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B723E8DD5920122D6048DD = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (1318CF9849307CC601EDE0EB, E80000000000000000000003);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445400E5F2FBA943F420F425 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (57AD5C8B661CA68B38222917, 10376AE2CFF03A101A1FF674);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92B25893F4F1221CD44C909 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (015B1F78DA482A23D2EDE13A, 7A636C678B91DD5E561C4151);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB5EB4C0AD489694BEFD8C0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MARKETING_VERSION = 1.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.PiperVoices.extension;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = iphoneos;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				SWIFT_VERSION = 6.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				SKIP_INSTALL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				INFOPLIST_FILE = Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Debug;
+		};
+		55108EC52B6015C000A55A9D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+			};
+			name = Debug;
+		};
+		55108EC62B6015C000A55A9D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+			};
+			name = Release;
+		};
+		979D77692B86E0E6B45504EB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MARKETING_VERSION = 1.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.PiperVoices.extension;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = iphoneos;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				SWIFT_VERSION = 6.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				SKIP_INSTALL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				INFOPLIST_FILE = Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Release;
+		};
+		B84D0F655EE98561E719CF14 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_APP_SANDBOX = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTED_PLATFORMS = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.PiperVoices.extension;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = macosx;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				SWIFT_VERSION = 6.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				INFOPLIST_FILE = Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Debug;
+		};
+		E84FFF5E2126E7B08FFAC45A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_APP_SANDBOX = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTED_PLATFORMS = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.PiperVoices.extension;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = macosx;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				SWIFT_VERSION = 6.0;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				INFOPLIST_FILE = Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Release;
+		};
+		55108E9D2B6015BF00A55A9D = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (55108EC52B6015C000A55A9D, 55108EC62B6015C000A55A9D);
+		};
+		998A75D8E7AD39C4B6CD91C3 = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (B84D0F655EE98561E719CF14, E84FFF5E2126E7B08FFAC45A);
+		};
+		9F0E6FB0CDE6ED1096503B70 = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (0CB5EB4C0AD489694BEFD8C0, 979D77692B86E0E6B45504EB);
+		};
+		072846954E8B821D58D032BB = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = EnclavePiperSpeech;
+		};
+		7699421921C98E35BF12D907 = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = VoicePackCatalog;
+		};
+		4D10016B21D5EDC5A4605AA7 = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7699421921C98E35BF12D907;
+			productName = VoicePackCatalog;
+		};
+		65B0CA26168C5449881F019E = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072846954E8B821D58D032BB;
+			productName = EnclavePiperSpeech;
+		};
+		789C4A8DB16F9B5A54AB881D = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7699421921C98E35BF12D907;
+			productName = VoicePackCatalog;
+		};
+		79A903F0CE087E6F7757F8A3 = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072846954E8B821D58D032BB;
+			productName = EnclavePiperSpeech;
+		};
+	};
+	rootObject = 55108E9A2B6015BF00A55A9D;
+}

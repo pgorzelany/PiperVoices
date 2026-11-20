@@ -1,0 +1,15 @@
+{
+  "originHash" : "d4b53f2c043cc7f7c055745f1a150077986127afa556dc48615473997b3e91d4",
+  "pins" : [
+    {
+      "identity" : "espeak-ng-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/piper-tts-apps/espeak-ng-spm.git",
+      "state" : {
+        "revision" : "adad732ec1e4709383e282e11842b64e8b42dc2d",
+        "version" : "2026.9.11"
+      }
+    }
+  ],
+  "version" : 3
+}
