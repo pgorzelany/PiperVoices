@@ -10,11 +10,14 @@ private func fixturePack(revision: String = "v1") -> SpeechModelPack {
 }
 
 @Test func shippedCatalogIncludesEverySupportedLanguage() {
-    #expect(Set(SpeechVoiceCatalog.voices.map(\.language)) == ["en-US", "fr-FR", "it-IT", "es-ES", "pl-PL"])
+    #expect(Set(SpeechVoiceCatalog.voices.map(\.language)) == ["en-US", "fr-FR", "it-IT", "es-ES", "pl-PL", "de-DE", "pt-BR", "uk-UA"])
     #expect(SpeechVoiceCatalog.bundledEnglish.name == "Mike")
     #expect(SpeechVoiceCatalog.voice(id: "com.enclaveai.voice.fr")?.name == "Gilles")
     #expect(SpeechVoiceCatalog.voice(id: "com.enclaveai.voice.pl")?.name == "MC_Speech")
-    #expect(Set(SpeechVoiceCatalog.voices.compactMap(\.modelPackID)) == ["piper-fr-v1", "piper-it-v1", "piper-es-v1", "piper-pl-v1"])
+    #expect(Set(SpeechVoiceCatalog.voices.compactMap(\.modelPackID)) == [
+        "piper-fr-v1", "piper-it-v1", "piper-es-v1", "piper-pl-v1",
+        "piper-de-v1", "piper-pt-br-v1", "piper-uk-v1"
+    ])
     #expect(Set(SpeechVoiceCatalog.packs.map(\.id)) == Set(SpeechVoiceCatalog.voices.compactMap(\.modelPackID)))
     for pack in SpeechVoiceCatalog.packs {
         #expect(pack.files.count == 4)

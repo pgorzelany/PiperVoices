@@ -23,6 +23,24 @@
       "name": "MC_Speech",
       "language": "pl-PL",
       "modelPackID": "piper-pl-v1"
+    },
+    {
+      "id": "com.enclaveai.voice.de",
+      "name": "Thorsten",
+      "language": "de-DE",
+      "modelPackID": "piper-de-v1"
+    },
+    {
+      "id": "com.enclaveai.voice.pt-br",
+      "name": "Cadu",
+      "language": "pt-BR",
+      "modelPackID": "piper-pt-br-v1"
+    },
+    {
+      "id": "com.enclaveai.voice.uk",
+      "name": "Lada",
+      "language": "uk-UA",
+      "modelPackID": "piper-uk-v1"
     }
   ],
   "packs": [
@@ -147,6 +165,99 @@
           "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/pl/pl_PL/mc_speech/medium/MODEL_CARD",
           "sha256": "defd8213e3a438ebb80130dc1db17b6995bf5bf8d57fdee7b5b74a5a69c2c0d2",
           "byteCount": 296
+        }
+      ]
+    },
+    {
+      "id": "piper-de-v1",
+      "revision": "e9c8a39444359388adaa94255becb37a5a2b8e51",
+      "downloadBytes": 31931888,
+      "files": [
+        {
+          "path": "de_DE-thorsten-medium.encoder.onnx",
+          "url": "https://github.com/pgorzelany/PiperVoices/releases/download/streaming-voices-v1/de_DE-thorsten-medium.encoder.onnx",
+          "sha256": "33fb31c70c73ac30e349b817da85079af6c6474b586d656c40d24d31691137a1",
+          "byteCount": 28580429
+        },
+        {
+          "path": "de_DE-thorsten-medium.decoder.onnx",
+          "url": "https://github.com/pgorzelany/PiperVoices/releases/download/streaming-voices-v1/de_DE-thorsten-medium.decoder.onnx",
+          "sha256": "b906ba1049e24825d83ab2d002c2c4fc006181a7b97eaeaa1ca145b5927af400",
+          "byteCount": 3344577
+        },
+        {
+          "path": "de_DE-thorsten-medium.onnx.json",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/e9c8a39444359388adaa94255becb37a5a2b8e51/de/de_DE/thorsten/medium/de_DE-thorsten-medium.onnx.json",
+          "sha256": "e5bb7410dcbbcc0be6f4544f6bc66612b315ab5cb3099ec44bb46d860bc7cca9",
+          "byteCount": 6455
+        },
+        {
+          "path": "MODEL_CARD",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/e9c8a39444359388adaa94255becb37a5a2b8e51/de/de_DE/thorsten/medium/MODEL_CARD",
+          "sha256": "c638118fb06eb07d59e60270097c250cf2de81a037320a8a6306fec652ad13b0",
+          "byteCount": 427
+        }
+      ]
+    },
+    {
+      "id": "piper-pt-br-v1",
+      "revision": "e9c8a39444359388adaa94255becb37a5a2b8e51",
+      "downloadBytes": 31931682,
+      "files": [
+        {
+          "path": "pt_BR-cadu-medium.encoder.onnx",
+          "url": "https://github.com/pgorzelany/PiperVoices/releases/download/streaming-voices-v1/pt_BR-cadu-medium.encoder.onnx",
+          "sha256": "9a3dd5c98cfa168bfc834a25682f4d75536697ba8cfcc473fe9e5dc4c2b72be3",
+          "byteCount": 28580429
+        },
+        {
+          "path": "pt_BR-cadu-medium.decoder.onnx",
+          "url": "https://github.com/pgorzelany/PiperVoices/releases/download/streaming-voices-v1/pt_BR-cadu-medium.decoder.onnx",
+          "sha256": "6c30fd4080de1b0b3b675cc4fa102c094634dddcf468497e6f1eddf635c02cc1",
+          "byteCount": 3344577
+        },
+        {
+          "path": "pt_BR-cadu-medium.onnx.json",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/e9c8a39444359388adaa94255becb37a5a2b8e51/pt/pt_BR/cadu/medium/pt_BR-cadu-medium.onnx.json",
+          "sha256": "28c27ae86debf5e304176c5be533bbb3a483e456f42272eeb7dbfede48dae741",
+          "byteCount": 6256
+        },
+        {
+          "path": "MODEL_CARD",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/e9c8a39444359388adaa94255becb37a5a2b8e51/pt/pt_BR/cadu/medium/MODEL_CARD",
+          "sha256": "ccd97b4369f50e6fba3a4fb730643ef2675f87b43c5d22298404c58f8204a375",
+          "byteCount": 420
+        }
+      ]
+    },
+    {
+      "id": "piper-uk-v1",
+      "revision": "1455883dac179e571c6508ac288944ef5e6b716d",
+      "downloadBytes": 10669088,
+      "files": [
+        {
+          "path": "uk_UA-lada-x_low.encoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/uk/uk_UA/lada/x_low/uk_UA-lada-x_low.encoder.onnx",
+          "sha256": "5b5226007c5d80659c83c46d22ecc02d5beaf0e9e3e65113221a970a46f31ec8",
+          "byteCount": 7664330
+        },
+        {
+          "path": "uk_UA-lada-x_low.decoder.onnx",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/uk/uk_UA/lada/x_low/uk_UA-lada-x_low.decoder.onnx",
+          "sha256": "ec5b918048b2cb0fca9f6865b3ba92cf02999e4ac635232df2df2fddbc785411",
+          "byteCount": 3000305
+        },
+        {
+          "path": "uk_UA-lada-x_low.onnx.json",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/uk/uk_UA/lada/x_low/uk_UA-lada-x_low.onnx.json",
+          "sha256": "2df74b622e78930e8a62432d1cc8380f79f34f02c8c58ebd68e6ccbc857d80aa",
+          "byteCount": 4186
+        },
+        {
+          "path": "MODEL_CARD",
+          "url": "https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/1455883dac179e571c6508ac288944ef5e6b716d/uk/uk_UA/lada/x_low/MODEL_CARD",
+          "sha256": "e573364d00e4497e2aa96475d785887eb3ce901b3af9fda49f7f772c3cc5ff4a",
+          "byteCount": 267
         }
       ]
     }
